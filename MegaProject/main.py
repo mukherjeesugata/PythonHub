@@ -20,9 +20,9 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id) 
 
 # API keys for external services
-newsapi = 'f9a7475633c34449a8e7c7175d948240'  
-yt_api_key = "AIzaSyD0Bjt_91xVRb5xOnKmo9Fo0NXqDACsGbs"
-gen_api_key = "AIzaSyAj03jUfom70WjMt_waxBXiGAXKjBqhQzQ"
+newsapi = 'your_newsapi_key'  
+yt_api_key = "your_youtubeapi_key"
+gen_api_key = "your_geminiapi_key"
 
 def clean_text(text):
     # Removes special characters that sounds unnatural in speech output
